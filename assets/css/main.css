@@ -1,4 +1,4 @@
-.right, .header-menu__list, .header-content {
+.quote-info__master, .quote-content, .right, .header-menu__list, .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -136,6 +136,29 @@
   font-size: 1.8rem;
   padding: 1rem;
   border-radius: 10px;
+}
+
+#quote {
+  background-color: #F8F9FA;
+}
+
+.quote-info__italic {
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+}
+.quote-info__master {
+  justify-content: center;
+  gap: 1rem;
+}
+.quote-info__master-img {
+  border-radius: 50%;
+}
+.quote-info__master-name {
+  margin-top: 12px;
+}
+.quote-info span {
+  color: #0d6efd;
 }
 
 @media (max-width: 576px) {

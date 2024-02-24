@@ -125,8 +125,37 @@
     border-radius: 10px;
   }
 }
-
 // Features ends
+
+// Quote
+#quote{
+  background-color: $bg-light-gray;
+}
+.quote-content {
+  @extend %d-flex;
+}
+.quote-info {
+  &__italic {
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+  }
+  &__master {
+    @extend %d-flex;
+    justify-content:center;
+    gap: 1rem;
+  }
+  &__master-img {
+    border-radius: 50%;
+  }
+  &__master-name {
+    margin-top: 12px;
+  }
+  & span{
+    color: $color-blue;
+  }
+}
+// Quote ends
 
 // Media queries
 @media (max-width:576px){
