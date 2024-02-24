@@ -1,0 +1,156 @@
+.right, .header-menu__list, .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-transparent, .btn-primary {
+  text-decoration: inherit;
+  color: #fff;
+  margin-right: 2rem;
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.dropdown-menu {
+  padding: 1rem;
+}
+.dropdown-menu__item {
+  position: relative;
+}
+.dropdown-menu__link {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #212529;
+}
+
+.header-content {
+  padding: 1rem 0;
+}
+
+.header-menu__link {
+  text-decoration: none;
+}
+.header-menu__list {
+  gap: 1rem;
+}
+
+.logo-title {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.header .logo-title {
+  color: #fff;
+}
+.header .header-menu__link {
+  color: rgba(255, 255, 255, 0.7490196078);
+}
+.header .dropdown-menu__link {
+  color: #212529;
+}
+.header .mobile-device-nav__btn {
+  color: rgba(255, 255, 255, 0.7490196078);
+  border: 1px solid rgba(255, 255, 255, 0.7490196078);
+  border-radius: 4px;
+  padding: 8px;
+}
+.header .mobile-device-nav__btn i {
+  font-size: 1rem;
+}
+
+.header-menu__item:hover .dropdown-menu {
+  display: block !important;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+#hero {
+  background-color: #212529;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.btn-transparent:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-info__btns {
+  text-decoration: none;
+}
+.hero-info__subtitle {
+  color: rgba(255, 255, 255, 0.7490196078);
+  font-size: 1.1rem;
+}
+.hero-info__title {
+  color: #fff;
+  font-weight: 700;
+}
+
+.features-column__header-title {
+  font-weight: 700;
+}
+
+.right {
+  gap: 1rem;
+}
+
+.right-column {
+  width: 48%;
+}
+.right-column__title {
+  margin: 1rem 0;
+}
+.right-column i {
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .btn {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .header-menu {
+    display: none;
+  }
+  .hero-img-field {
+    display: none;
+  }
+  .right-column {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,15 @@
+%d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+%btn{
+  text-decoration: inherit;
+  color: $color-white;
+  margin-right: 2rem;
+  display: inline-block;
+  padding: .8rem 2rem;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: .5s;
+}
